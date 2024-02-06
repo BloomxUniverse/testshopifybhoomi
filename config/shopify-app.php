@@ -168,7 +168,7 @@ return [
     |
     */
 
-    'api_version' => env('SHOPIFY_API_VERSION', '2024-01'),
+    'api_version' => env('SHOPIFY_API_VERSION', '2023-10'),
 
     /*
     |--------------------------------------------------------------------------
@@ -201,7 +201,7 @@ return [
     |
     */
 
-    'api_scopes' => env('SHOPIFY_API_SCOPES', 'read_products,write_products,read_themes'),
+    'api_scopes' => env('SHOPIFY_API_SCOPES', 'read_products,write_products,write_themes'),
 
     /*
     |--------------------------------------------------------------------------
