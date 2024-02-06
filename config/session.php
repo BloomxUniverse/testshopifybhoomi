@@ -168,8 +168,8 @@ return [
     |
     */
 
-    // 'secure' => env('SESSION_SECURE_COOKIE'),
-    'secure' => env('SESSION_SECURE_COOKIE', true),
+    'secure' => env('SESSION_SECURE_COOKIE',true),
+
     /*
     |--------------------------------------------------------------------------
     | HTTP Access Only
@@ -198,6 +198,7 @@ return [
 
     // 'same_site' => 'lax',
     'same_site' => 'none',
+
     /*
     |--------------------------------------------------------------------------
     | Partitioned Cookies

@@ -19,8 +19,6 @@ class CreateShopsTable extends Migration
             $table->string('shopify_namespace')->nullable(true)->default(null);
             $table->boolean('shopify_freemium')->default(false);
             $table->integer('plan_id')->unsigned()->nullable();
-            $table->string('shopify_domain')->unique();
-            $table->string('access_token');
 
             if (! Schema::hasColumn(Util::getShopsTable(), 'deleted_at')) {
                 $table->softDeletes();
